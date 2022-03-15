@@ -4,7 +4,7 @@ function TableRow({ username, email, status,avatar, country, phone, titleJub }) 
   return (
     <div className='table__row'>
       <div className="table__cell user">
-        <img src={`/image/${avatar}`} className='avatar' alt="" />
+        <img src={`/real_time_search/image/${avatar}`} className='avatar' alt="" />
         <div className="user__info">
           <p className="user__name">{username}</p>
           <p className="user__email">{email}</p>
